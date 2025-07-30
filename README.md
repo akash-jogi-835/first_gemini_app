@@ -2,6 +2,9 @@
 
 A modern Streamlit chatbot interface powered by Google Gemini (Generative AI) API.
 
+# To Access 
+Link : https://firstgeminiapp-3gwjuhxefehjpjw5krvakk.streamlit.app/
+
 ## Features
 - Chat with Gemini using Google's official Python client
 - Multi-session chat history
