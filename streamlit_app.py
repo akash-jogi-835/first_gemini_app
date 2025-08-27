@@ -47,7 +47,7 @@ if 'chat_sessions' not in st.session_state:
 if 'current_session_id' not in st.session_state:
     st.session_state.current_session_id = None
 if 'gemini_api_key' not in st.session_state:
-    st.session_state.gemini_api_key = "AIzaSyDlUN9wJ_Vvj5kCxC-YO-nRTtUHNeeHztg"
+    st.session_state.gemini_api_key = "AIzaSyCzXXpTfz894Z9M5hgvlegtvaDp9F2RGDs"
 
 def create_new_session():
     session_id = f"chat_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
@@ -115,3 +115,4 @@ if prompt := st.chat_input("Type your message here..."):
                 error_msg = f"Error: {str(e)}"
                 st.error(error_msg)
                 current_session['messages'].append({"role": "assistant", "content": error_msg})
+
